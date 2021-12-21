@@ -5,7 +5,7 @@ function centsToDecimals(centValue) {
 
   let result = centValue / 100;
 
-  return result.toFixed(2) + '$';
+  return result.toFixed(2);
 }
 
 // The following is required to make automated tests run. Please ignore it.
